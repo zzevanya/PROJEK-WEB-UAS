@@ -210,7 +210,7 @@ section{
     outline: 1px solid #C0B29F;
     outline-offset: -4px;
     padding: 25px 15px;
-    border-radius: 2px;
+    border-radius: 5px;
     position: relative;
     box-shadow: 0 4px 20px rgba(93, 64, 55, 0.02);
     flex: 1;
@@ -315,7 +315,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 5px;
     flex-shrink: 0;
 }
 
@@ -376,8 +376,9 @@ section{
     outline: 1px solid #C0B29F;
     outline-offset: -4px;
     padding: 25px 15px;
-    border-radius: 2px;
+    border-radius: 5px;
     text-align: left;
+    box-shadow: 0 15px 35px rgba(139, 94, 60, 0.15);
 }
 
 .Mini-card h4{
