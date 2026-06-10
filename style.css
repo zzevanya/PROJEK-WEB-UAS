@@ -379,6 +379,15 @@ section{
     border-radius: 5px;
     text-align: left;
     box-shadow: 0 15px 35px rgba(139, 94, 60, 0.15);
+    transition: 0.4s ease;
+    will-change: transform;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+}
+
+.Mini-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 22px 40px rgba(139, 94, 60, 0.25);;
 }
 
 .Mini-card h4{
