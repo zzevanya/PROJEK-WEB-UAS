@@ -67,16 +67,6 @@ h1, h2, h3, h4 .logo h2{
     transform: translateY(-2px);
 }
 
-body:has(#Home:target) .nav-menu ul li a[href="#Home"],
-body:has(#Sejarah:target) .nav-menu ul li a[href="#Sejarah"],
-body:has(#Kebijakan:target) .nav-menu ul li a[href="#Kebijakan"],
-body:has(#Toleransi:target) .nav-menu ul li a[href="#Toleransi"],
-body:has(#Warisan:target) .nav-menu ul li a[href="#Warisan"] {
-    color: #3E2723;
-    font-weight: 600;
-    border-bottom: 2px solid #7B5A42;
-    padding-bottom: 5px;
-}
 .main-content{
     width: 100%;
     padding-top: 20px;
