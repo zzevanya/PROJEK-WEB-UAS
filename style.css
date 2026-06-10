@@ -380,6 +380,83 @@ section{
     box-shadow: 0 22px 40px rgba(139, 94, 60, 0.25);;
 }
 
+a.Mini-card{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+}
+
+.modal-overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-overlay:target{
+    display: flex;
+}
+
+.konten{
+    background-color: #fdfbf7;
+    padding: 40px 30px;
+    border-radius: 14px;
+    border: 3px solid #7B5A42;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 22px 40px rgba(139, 94, 60, 0.25);
+    animation: munculPop 0.25s ease-out;
+}
+
+.konten h4{
+    color: #7B5A42;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.konten p{
+    font-size: 15px;
+    line-height: 1.6;
+    columns: #6D4C41;
+}
+
+.tombol-tutup{
+    color: #6a524b;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tombol-tutup:hover{
+    color: #583a35;
+}
+
+@keyframes munculPop{
+    from{ 
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
 .Mini-card h4{
     color: #7B5A42;
     font-size: 14px;
